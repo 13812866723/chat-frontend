@@ -7,7 +7,7 @@
 - 🔐 **用户认证**：登录 / 注册，基于 JWT Token 鉴权，自动注入到请求头。
 - 💬 **多会话管理**：创建、切换、删除会话；按"今天 / 昨天 / 更早"自动分组。
 - ⚡ **流式对话**：基于 SSE（Server-Sent Events）逐字渲染 AI 回复，支持会话标题自动生成。
-- 📎 **文件上传与分析**：支持 Word（.doc/.docx）、TXT、PDF 文件上传，附带文件分析能力。
+- 📎 **文件上传与分析**：支持 Word（.doc/.docx）、TXT 文件上传，附带文件分析能力。 
 - 🏷️ **意图识别标签**：在每条 AI 消息上展示识别到的意图（RAG 检索、智能对话、文件分析、在线搜索）。
 - 📝 **Markdown 渲染**：启用 GFM 与换行支持，支持代码块、表格、引用、链接等。
 - 📚 **引用来源展示**：RAG 检索结果可显示来源片段。
@@ -22,9 +22,9 @@
 | 语言 | TypeScript 6 |
 | 构建 | Vite 8 |
 | HTTP | Axios 1.18 |
-| 流式通信 | 原生 `fetch` + `ReadableStream`，`@microsoft/fetch-event-source` |
+| 流式通信 | 原生 `fetch`|
 | Markdown | marked 18 |
-| 代码规范 | `@vue/tsconfig`，开启 `noUnusedLocals` / `noFallthroughCasesInSwitch` 等 |
+| 代码规范 | `@vue/tsconfig`|
 
 ## 📁 项目结构
 

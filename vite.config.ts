@@ -5,7 +5,7 @@ import path from 'path'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [vue()],
-   resolve: { // 👈 2. 添加 resolve 配置
+   resolve: { 
     alias: {
       '@': path.resolve(__dirname, './src') 
     }

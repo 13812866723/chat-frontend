@@ -492,7 +492,7 @@ onMounted(() => {
         </div>
         <div class="input-wrapper">
           <label class="icon-btn upload-btn" title="上传文件">
-            <input type="file" accept=".txt,.doc,.docx,.pdf" @change="handleFileUpload" hidden />
+            <input type="file" accept=".txt,.doc,.docx" @change="handleFileUpload" hidden />
             📎
           </label>
           <textarea 
